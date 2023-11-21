@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja strona domowa</title>
+    <link href="./style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+    <header class="header">
+        <h1 class="header__title">Adam Kowalski - student informatyki</h1>
+        <nav class="header__menu">
+            <ul class="menu">
+                <li class="menu__item">
+                    <a class="menu__link" href="#articles">Moje artykuły</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="./podstrony/podstrona.html">Moja podstrona</a>
+                </li>  
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+
+        <section class="hero">
+            <h2 class="hero__name">Adam Kowalski</h2>
+            <img class="hero__image" src="./img/adam.jpg" alt="Zjęcie Adama.">
+            <p class="hero__description">Jestem studentem II roku informatyki na Politechnice Warszawskiej. Specjalizuję się w Sztucznej Inteligencji. W wolnej chwili moją pasją jest podróżowanie oraz fotografia.</p>
+        </section>
+
+        <section class="data">
+            <article class="data__list">
+                <h4 class="list__title">Języki, które znam:</h4>
+                <ul class="list">
+                    <li class="list__item">Java</li>
+                    <li class="list__item">JavaScript</li>
+                    <li class="list__item">Python</li>  
+                </ul>
+            </article>
+
+            <article class="data__list">
+                <h4 class="list__title">Moje zainteresowania:</h4>
+                <ol class="list">
+                    <li class="list__item">Podróże</li>
+                    <li class="list__item">Fotografia</li>
+                    <li class="list__item">Nauka</li>
+                </ol>
+            </article>
+
+            <article class="data__list">
+                <h4 class="list__title">Moje miejsca w sieci:</h4>
+                <ul class="list">
+                    <li class="list__item"><a class="list__link" href="https://www.facebook.com" target="_blank">Moje konto na Fejsie</a></li>
+                    <li class="list__item"><a class="list__link" href="https://www.twitter.com" target="_blank">Moje konto na X</a></li>
+                </ul>
+            </article>
+        </section>
+
+        <section class="articles" id="articles">
+            <h3 class="section__title">Moje wpisy</h3>
+            <article class="article">
+                <h4 class="article__title">First</h4>
+                    <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique consectetur justo, id mattis leo molestie sit amet. Nulla hendrerit vitae quam at lacinia. Curabitur tincidunt, lectus quis suscipit sodales, nisi leo suscipit eros, vitae pulvinar elit lorem ac odio. Aliquam tellus sem, molestie eget magna id, dictum suscipit purus. Nam in dolor sit amet risus pretium volutpat. Cras tempor urna a erat luctus, lacinia feugiat felis mattis. Nam elementum tortor ut nisi gravida finibus. Integer enim dui, efficitur a massa eu, cursus placerat tortor. Sed quis nunc aliquet dui eleifend tempor et eu nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Curabitur lacinia, leo ut porta molestie, ipsum sem porta ligula, eget iaculis diam lacus sed felis. Aenean augue dui, tristique at libero in, vestibulum fermentum neque.</p>
+            </article>
+    
+            <article class="article">
+                <h4 class="article__title">Second</h4>
+                <p class="paragraph">Vestibulum ultrices tincidunt semper. Donec vitae lorem in sem facilisis mattis ut ac elit. Sed suscipit ut nibh at finibus. Etiam sed mi blandit, tempor erat non, gravida augue. Praesent pellentesque turpis vitae arcu fermentum mattis. Vivamus condimentum diam diam. Donec cursus tristique varius. Nulla maximus imperdiet lacinia. Nam suscipit tortor eu diam vestibulum, sit amet malesuada est vulputate. Integer sed lectus porta, scelerisque mi quis, mattis diam. Curabitur molestie malesuada ornare. Quisque vitae quam sed nisi aliquet luctus. Donec dictum convallis malesuada. Donec ultricies dolor urna, eu porta ipsum volutpat non. In faucibus placerat ligula, eget aliquet massa sodales imperdiet. Etiam maximus efficitur maximus.</p>
+            </article>
+
+            <article class="article">
+                <h4 class="article__title">Third</h4>
+                <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique consectetur justo, id mattis leo molestie sit amet. Nulla hendrerit vitae quam at lacinia. Curabitur tincidunt, lectus quis suscipit sodales, nisi leo suscipit eros, vitae pulvinar elit lorem ac odio. Aliquam tellus sem, molestie eget magna id, dictum suscipit purus. Nam in dolor sit amet risus pretium volutpat. Cras tempor urna a erat luctus, lacinia feugiat felis mattis. Nam elementum tortor ut nisi gravida finibus. Integer enim dui, efficitur a massa eu, cursus placerat tortor. Sed quis nunc aliquet dui eleifend tempor et eu nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Curabitur lacinia, leo ut porta molestie, ipsum sem porta ligula, eget iaculis diam lacus sed felis. Aenean augue dui, tristique at libero in, vestibulum fermentum neque.</p>
+            </article>
+
+            <article class="article">
+                <h4 class="article__title">Fourth</h4>
+                <p class="paragraph">Vestibulum ultrices tincidunt semper. Donec vitae lorem in sem facilisis mattis ut ac elit. Sed suscipit ut nibh at finibus. Etiam sed mi blandit, tempor erat non, gravida augue. Praesent pellentesque turpis vitae arcu fermentum mattis. Vivamus condimentum diam diam. Donec cursus tristique varius. Nulla maximus imperdiet lacinia. Nam suscipit tortor eu diam vestibulum, sit amet malesuada est vulputate. Integer sed lectus porta, scelerisque mi quis, mattis diam. Curabitur molestie malesuada ornare. Quisque vitae quam sed nisi aliquet luctus. Donec dictum convallis malesuada. Donec ultricies dolor urna, eu porta ipsum volutpat non. In faucibus placerat ligula, eget aliquet massa sodales imperdiet. Etiam maximus efficitur maximus.</p>
+            </article>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p class="footer__description">Strona stworzona przez Adama. 2023.</p>
+    </footer>
+</body>
+</html>
